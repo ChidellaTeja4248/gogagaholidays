@@ -1,1 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+.food-munch-logo {
+    width: 130px;
+    height: 80px;
+}
+
+.logoIconss {
+    color: #012a4b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.uplift {
+    font-size: 28px;
+}
+
+#navItem1 {
+    color: #012a4b;
+    font-family: "Roboto";
+}
+
+
+
+#navItem2 {
+    color: #012a4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #012a4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #012a4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #012a4b;
+    font-family: "Roboto";
+}
+
+#navItem6 {
+    color: #012a4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://img.freepik.com/free-photo/landscape-tropical-vacation-palm-summer_1203-5352.jpg?w=1060&t=st=1660812586~exp=1660813186~hmac=634dde348a90424635609e25d477606605989c7f98477d6b3e0bf71e486f0aea");
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-caption {
+    color: white;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+.contactusHeadingContainer {
+    background-color: #00294b;
+    text-align: center;
+    color: white;
+    height: 15vh;
+}
+
+.whyChooseUsContainer {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.star {
+    color: #1e72ad;
+}
+
+.starContainer {
+    padding: 5px;
+    background-color: #d9dbd9;
+    border-radius: 5px;
+    width: 55%;
+}
+
+.reviewerName {
+    font-family: "Caveat";
+    font-size: 20px;
+    font-weight: bold;
+    color: #00294b;
+}
+
+.reviewspan {
+    color: #00294b;
+    font-weight: 500;
+}
+
+.contactsubmit {
+    background-color: #00294b;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    height: 32px;
+    width: 100px;
+}
+
+.reviewmatter {
+    font-family: "Caveat";
+}
+
+.reviewCommentHe {
+    padding-top: 5px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.reviewContaier {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.whyChooseUsHeading {
+    font-size: 20px;
+}
+
+.aboutUsBgContainer {
+    background-color: #dddfdc;
+    margin: 0px;
+}
+
+.services-img {
+    height: 60px;
+    width: 60px;
+}
+
+.service-card {
+    background-color: white;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+}
+
+.services-desc {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.allflightont {
+    background-color: #f1f5f9;
+
+
+}
+
+.flight-filter {
+    color: #21325e;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "roboto";
+}
+
+.flight-filter-container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flight-filter-search-button {
+    background-color: #217bba;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 32px;
+    width: 98%;
+}
+
+.flight-card {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.flight-departure-icons {
+    font-size: 25px;
+}
+
+.rupee-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.to-icon {
+    width: 30px;
+}
+
+.flight-book-button {
+    height: 32px;
+    width: 80px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #21325e;
+}
+
+.flight-book-cont {
+    width: 90px;
+}
+
+.flight-overflow-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.scrollable {
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.category-heading {
+    color: #21325e;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.packagesHeadingContainer {
+    background-color: #00294b;
+    text-align: center;
+    color: white;
+    height: 15vh;
+}
+
+.packages-cont {
+    background-color: #f1f5f9;
+}
+
+.PackagesImage {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package-heading {
+    font-size: 25px;
+    color: #00294b;
+}
+
+.package-bottom {
+    padding: 10px;
+
+}
+
+.package-card {
+    padding: 0px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+li {
+    color: #383f48;
+    font-weight: 600;
+}
+
+.cost {
+    font-size: 20px;
+    color: #00294b;
+    text-align: center;
+    font-weight: bold;
+}
+
+.viewmorebut {
+    margin: 10px;
+    height: 32px;
+    width: 120px;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #00294b;
+}
+
+
+.filterSearchButton {
+    background-color: #217bba;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 32px;
+}
+
+.cmpIconPro {
+    height: 60px;
+    width: 60px;
+}
+
+.filterContainer {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cmpHead {
+    color: #505c71;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.allpostjobs {
+    color: #21325e;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "roboto";
+}
+
+.alljobcont {
+    background-color: #f1f5f9;
+}
+
+.jobCardContainer {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cmpRole {
+    margin-top: 0px;
+    color: #21325e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.proHead {
+    color: #828b96;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.pro {
+    width: 30%;
+}
+
+.proIcon {
+    font-size: 14px;
+    color: #2d69ec;
+}
+
+.proDesc {
+    color: #4a6f95;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hotel-card {
+    background-color: white;
+    width: 47%;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.hotel-name {
+    color: #21325e;
+    font-size: 20px;
+}
+
+.card-right {
+    padding: 15px;
+    width: 100%;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+i {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+span {
+    color: #828b96;
+}
+
+.book-but {
+    background-color: #21325e;
+    height: 32px;
+    width: 80px;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+.job_container {
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.hotel-img {
+    border-radius: 10px;
+    height: 200px;
+}
+
+.price-field {
+    width: 30%;
+}
+
+.check-in-field {
+    width: 30%;
+}
+
+.check-out-field {
+    width: 30%;
+}
+
+
+
+
+
+.contactUsBgContainer {
+    background-color: #eceeeb;
+}
+
+.contactsubmit {
+    background-color: #00294b;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    height: 32px;
+    width: 100px;
+}
+
+.contactusHeadingContainer {
+    background-color: #00294b;
+    text-align: center;
+    color: white;
+    height: 15vh;
+}
+
+.cantactCard {
+    background-color: #fcfffc;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.drpMsgHd {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "roboto";
+}
+
+.contactIcon {
+    font-size: 20px;
+}
+
+.msgCont {
+    border-radius: 10px;
+    border-color: #ced4da;
+
+}
+
+.contactIconBackground {
+    background-color: #eceeeb;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logoIcon {
+    color: #012a4b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.follow-us-section {
+    background-color: #eceeeb;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #042d4e;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #ffffff;
+}
+
+.footer-section-mail-id {
+    color: #042d4e;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #042d4e;
+    font-family: "Roboto";
+    font-size: 14px;
+}
